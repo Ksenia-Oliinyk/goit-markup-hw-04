@@ -30,6 +30,8 @@
 .footer-social {
 }
 .footer-caption {
+  font-weight: 500;
+
   margin-bottom: 16px;
 
   color: #fff;

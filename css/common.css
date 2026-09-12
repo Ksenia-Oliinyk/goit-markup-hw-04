@@ -86,13 +86,6 @@ button {
   cursor: pointer;
   background: #4d5ae5;
   border: none;
-
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
-}
-button:hover,
-button:focus {
-  background-color: #404bbf;
 }
 
 .btn {
@@ -105,4 +98,13 @@ button:focus {
   letter-spacing: 0.04em;
   color: #fff;
   line-height: 1.5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
 }
